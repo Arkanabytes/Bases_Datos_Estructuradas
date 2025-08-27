@@ -2,9 +2,6 @@
 --   en:        2025-08-14 20:12:41 CLT
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
-
-
-
 -- predefined type, no DDL - MDSYS.SDO_GEOMETRY
 
 -- predefined type, no DDL - XMLTYPE
