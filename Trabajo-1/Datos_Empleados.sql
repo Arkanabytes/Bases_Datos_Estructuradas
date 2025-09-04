@@ -4,7 +4,6 @@ INSERT INTO COMUNA VALUES(3,'PIRQUE');
 INSERT INTO COMUNA VALUES(4,'EL BOSQUE');
 INSERT INTO COMUNA VALUES(5,'LA PINTANA');
 
-
 INSERT	INTO	CARGO	VALUES(1,'OPERARIO','O');	
 INSERT	INTO	CARGO	VALUES(2,'ADMINISTRATIVO','A');	
 INSERT	INTO	CARGO	VALUES(3,'GERENCIA','G');	
@@ -86,7 +85,7 @@ GROUP BY d.nom_dpto;
 
 
 --3.	Encontrar el empleado con el sueldo más alto en el departamento de 'Ventas'. 
-a.	Se usa una subconsulta para encontrar el ID del departamento de 'Ventas' y luego se busca el empleado con el sueldo máximo en ese departamento. 
+--a.	Se usa una subconsulta para encontrar el ID del departamento de 'Ventas' y luego se busca el empleado con el sueldo máximo en ese departamento. 
 
 SELECT 
     e.NOM_EMP || ' ' || e.APE_EMP AS nombre_completo,
