@@ -1,4 +1,4 @@
---tablas
+--tablas basicas de bd
 
 CREATE TABLE cargo 
 	    ( 
