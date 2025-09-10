@@ -1,4 +1,4 @@
-
+--tablas
 
 CREATE TABLE cargo 
 	    ( 
