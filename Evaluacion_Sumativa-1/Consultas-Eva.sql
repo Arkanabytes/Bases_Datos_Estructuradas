@@ -8,3 +8,10 @@
 FROM EMPLEADO
 WHERE SUELD_EMP > = 675000
 ORDER BY APE_EMP;
+
+--2.	Seleccionar el nombre, apellido y sueldo de los empleados con un sueldo superior a $580000, ordenados por apellido.                            			 
+
+SELECT NOM_EMP, APE_EMP, SUELD_EMP
+FROM EMPLEADO
+WHERE SUELD_EMP > 580000
+ORDER BY APE_EMP;
