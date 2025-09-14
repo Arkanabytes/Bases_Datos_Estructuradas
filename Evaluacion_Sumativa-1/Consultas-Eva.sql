@@ -19,3 +19,5 @@ ORDER BY APE_EMP;
 --4.	Seleccionar la fecha de contratación más nueva.                                 
 
 SELECT MAX(FECHACONT_EMP) AS fecha_contratacion_mas_nueva FROM EMPLEADO;
+
+--5 
