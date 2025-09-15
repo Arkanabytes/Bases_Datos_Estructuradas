@@ -24,3 +24,4 @@ SELECT MAX(FECHACONT_EMP) AS fecha_contratacion_mas_nueva FROM EMPLEADO;
 SELECT nom_cargo FROM cargo;
 
 --Consultas complejas
+--1.	Obtener el nombre completo del empleado, su sueldo, el nombre del departamento y el nombre del cargo. use mascaras.
