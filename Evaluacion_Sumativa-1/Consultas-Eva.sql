@@ -20,6 +20,7 @@ ORDER BY APE_EMP;
 
 SELECT MAX(FECHACONT_EMP) AS fecha_contratacion_mas_nueva FROM EMPLEADO;
 
---5 
+--5.	Seleccionar todos los nombres de los cargos de la tabla cargo
+SELECT nom_cargo FROM cargo;
 
 --6
