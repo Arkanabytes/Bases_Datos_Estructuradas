@@ -25,3 +25,15 @@ SELECT nom_cargo FROM cargo;
 
 --Consultas complejas
 --1.	Obtener el nombre completo del empleado, su sueldo, el nombre del departamento y el nombre del cargo. use mascaras.
+
+
+
+--6. 	Calcular el total de sueldos por Cargo.                                                     
+	
+CREATE OR REPLACE VIEW VISTA_SUELDO_CARGOS AS
+SELECT d.nom_cargo, SUM(e.Sueld_emp) AS SUELDO_TOTAL_CARGO
+FROM EMPLEADO e
+JOIN CARGO d ON e.DEPARTAMENTO_ID_DPTO = d.ID_CARGO
+GROUP BY d.NOM_CARGO;
+
+SELECT * FROM VISTA_SUELDO_CARGOS;
