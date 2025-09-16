@@ -25,8 +25,8 @@ FROM EMPLEADO
 RIGHT JOIN COMUNA
 ON EMPLEADO.COMUNA_COD_COM = COMUNA.COD_COM
 ORDER BY COMUNA ASC;
-b) Subconsultas (Subqueries)
-Consultas dentro de otras para obtener resultados intermedios.
+
+--b) Subconsultas (Subqueries) Consultas dentro de otras para obtener resultados intermedios.
 SELECT
 EMPLEADO.NOM_EMP, EMPLEADO.SUELD_EMP
 FROM
