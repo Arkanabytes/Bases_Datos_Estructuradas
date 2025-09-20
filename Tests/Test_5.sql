@@ -46,6 +46,14 @@ WHERE LOWER(last_name) = 'smith';
 --d.DD-MONTH-YY. 
 
 
+--5 ¿Cuál de las siguientes salidas produce la consulta mostrada a continuación?
+--Seleccione una:
+
+SELECT TO_CHAR(4352.2, '$99,999.00') FROM dual;
+--a.$4,352.20.
+--b.$04,352.20.
+--c.$04,352.2.
+--d.4,352.2.
 
 --6.Caso: Obteniendo información desde de la base de datos de recurso humano con expresiones condicionales.
 --En el contexto del desarrollo de la aplicación para el departamento de recurso humano, es necesario diseñar consultas que permitan realizar la obtención de datos mediante funciones de una fila. El equipo de desarrollo cree que sería mejor utilizar una lógica condicional en tales consultas en lugar de hacerlo en el código de programación de la aplicación. También cree que emplear funciones de conversión en las consultas permitirá evitar anomalías en su ejecución.¿Cuál es el resultado de la siguiente expresión condicional?
