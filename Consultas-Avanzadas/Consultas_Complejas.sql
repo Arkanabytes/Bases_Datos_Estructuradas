@@ -4,6 +4,7 @@
 --2. Tipos de Consultas Avanzadas
 --a) JOINs Avanzados Permiten relacionar dos o más tablas según claves compartidas.
 --Ejemplo (INNER JOIN):
+
 SELECT EMPLEADO.NOM_EMP AS EMPLEADO, EMPLEADO.APE_EMP AS APELLIDO, COMUNA.NOM_COM AS COMUNA
 FROM EMPLEADO
 INNER JOIN COMUNA
