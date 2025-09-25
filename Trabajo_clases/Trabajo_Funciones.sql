@@ -20,8 +20,6 @@ SELECT SYSDATE AS fecha_hoy,
        LAST_DAY(SYSDATE) AS fin_mes
 FROM dual;
 
-
-
 --2. Mostrar el nombre de cada empleado en mayúsculas de la tabla EMPLEADO.
 --Divida le sueldo por 7 y redondéelo con 2 decimales de la tabla EMPLEADO,
 --muestre el sueldo divido en 7 y en redondeado con 2 decimales.
