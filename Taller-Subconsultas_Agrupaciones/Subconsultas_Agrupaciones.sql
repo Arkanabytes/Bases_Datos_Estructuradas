@@ -1,5 +1,5 @@
-Ejercicios de Subconsultas y Agrupamientos en Oracle
-Ejercicios de Subconsultas de una sola fila
+--Ejercicios de Subconsultas y Agrupamientos en Oracle
+--Ejercicios de Subconsultas de una sola fila
   
 1. Listar los empleados cuyo sueldo es mayor al sueldo
 promedio de todos los empleados.
