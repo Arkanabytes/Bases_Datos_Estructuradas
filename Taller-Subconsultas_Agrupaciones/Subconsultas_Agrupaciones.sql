@@ -1,8 +1,8 @@
 --Ejercicios de Subconsultas y Agrupamientos en Oracle
 --Ejercicios de Subconsultas de una sola fila
   
-1. Listar los empleados cuyo sueldo es mayor al sueldo
-promedio de todos los empleados.
+--1. Listar los empleados cuyo sueldo es mayor al sueldo
+--promedio de todos los empleados.
   
 SELECT sueld_emp AS salario, ape_emp as apellido,
 nom_emp as nombre
