@@ -11,7 +11,6 @@ WHERE sueld_emp > (SELECT AVG(sueld_emp) FROM
 empleado)
 order by apellido asc;
 
-
 --2. Mostrar los empleados que ganan más que el empleado
 'DOROTEA LOPEZ'.
 SELECT nom_emp AS nombre, ape_emp as apellido,
