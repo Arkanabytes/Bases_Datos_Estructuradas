@@ -39,7 +39,7 @@ DPTO
 WHERE empleado.departamento_id_dpto =2;
 
 
-4. Listar empleados cuyo sueldo es mayor que todos los de la
+--4. Listar empleados cuyo sueldo es mayor que todos los de la
 comuna= 1.
 SELECT nom_emp, ape_emp, sueld_emp, nom_com
 FROM empleado
