@@ -114,8 +114,7 @@ departamento.id_dpto
 GROUP BY departamento.nom_dpto
 ORDER BY antiguedad_promedio DESC;
 
-11. Consulta que obtiene el sueldo máximo, mínimo y la
-diferencia entre ambos valores agrupados por comuna.
+--11. Consulta que obtiene el sueldo máximo, mínimo y la diferencia entre ambos valores agrupados por comuna.
 SELECT comuna.nom_com,
 MAX(empleado.sueld_emp) AS sueldo_max,
 MIN(empleado.sueld_emp) AS sueldo_min,
@@ -127,8 +126,7 @@ ON empleado.comuna_cod_com = comuna.cod_com
 GROUP BY comuna.nom_com
 ORDER BY diferencia DESC;
 
-12.Consulta que ordena los departamentos según el gasto total
-en sueldos utilizando una función analítica (RANK).
+--12.Consulta que ordena los departamentos según el gasto total en sueldos utilizando una función analítica (RANK).
 SELECT departamento.nom_dpto,
 SUM(empleado.sueld_emp) AS gasto_total,
 RANK() OVER (ORDER BY
