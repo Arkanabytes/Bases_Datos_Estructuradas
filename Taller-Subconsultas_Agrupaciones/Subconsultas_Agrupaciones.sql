@@ -102,7 +102,7 @@ ON empleado.cargo_id_cargo = cargo.id_cargo
 GROUP BY cargo.nom_cargo
 ORDER BY porcentaje_total ASC;
 
-10. Consulta que calcula la antigüedad promedio en años de los empleados por departamento.
+--10. Consulta que calcula la antigüedad promedio en años de los empleados por departamento.
 SELECT departamento.nom_dpto,
 ROUND(AVG(MONTHS_BETWEEN(SYSDATE,
 empleado.fechacont_emp) / 12), 1) AS
