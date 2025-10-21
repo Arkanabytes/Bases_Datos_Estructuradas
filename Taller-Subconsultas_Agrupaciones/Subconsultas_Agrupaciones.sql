@@ -12,7 +12,7 @@ empleado)
 order by apellido asc;
 
 
-2. Mostrar los empleados que ganan más que el empleado
+--2. Mostrar los empleados que ganan más que el empleado
 'DOROTEA LOPEZ'.
 SELECT nom_emp AS nombre, ape_emp as apellido,
 sueld_emp as salario
@@ -25,10 +25,9 @@ WHERE nom_emp = 'DOROTEA' AND ape_emp = 'LOPEZ'
 order by apellido desc;
 
 
-Ejercicios de Subconsultas de varias filas
+--Ejercicios de Subconsultas de varias filas
   
-3. Mostrar los empleados que tienen el mismo cargo que algún
-empleado del departamento 2.
+--3. Mostrar los empleados que tienen el mismo cargo que algún empleado del departamento 2.
 SELECT nom_emp, ape_emp, nom_cargo, nom_dpto
 FROM empleado
 JOIN CARGO
