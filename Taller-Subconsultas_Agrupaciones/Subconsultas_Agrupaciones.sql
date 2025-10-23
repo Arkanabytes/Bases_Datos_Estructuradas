@@ -80,8 +80,7 @@ comuna.cod_com
 GROUP BY comuna.nom_com
 ORDER BY gasto_total ASC;
 
---8. Mostrar el promedio de sueldos por cargo, solo si supera $711.500
-  
+--8. Mostrar el promedio de sueldos por cargo, solo si supera $711.500 
 SELECT cargo.nom_cargo, AVG(empleado.sueld_emp) AS promedio_sueldo
 FROM empleado
 JOIN cargo ON empleado.cargo_id_cargo = cargo.id_cargo
